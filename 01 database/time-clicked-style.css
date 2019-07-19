@@ -1,0 +1,58 @@
+/*------------------------------*
+* THIS IS THE CSS STYLE FOR TIME CLICKED PAGE
+--------------------------------*/
+html, body {
+    width: 100%;
+    /*stretches background image to fit page*/
+    background: url("img/bg-2.png") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;  
+    font-style: oblique;
+    font-weight: 500;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+.name-box {
+    width: 60%;
+    padding: 1.5%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.buttons-container, .input-container {
+    text-align: center;
+}
+
+.submit-btn, .hide-btn, .del-btn {    
+    background-color: rgba(113, 214, 227, 0.69);
+    color: white;
+    padding: 1%;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+.table-container, .table {    
+    text-align: center;
+    width: 60%;
+    margin: 8px auto; /* centers the table*/
+    border-collapse: separate;
+    border-spacing: 10px;
+    background-image: url(img/bg-3.jpg);
+    padding: 15px 20px;
+    font-size: 15px;
+    font-family: monospace;
+    color: #1a5384;
+}
